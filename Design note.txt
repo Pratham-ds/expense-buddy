@@ -1,0 +1,7 @@
+I used simple rule-based logic to categorize expenses. The system checks keywords in the transaction description and assigns a category such as Food, Transport, or Utilities. For example, if the description contains words like “restaurant” or “pizza”, it is categorized as Food.
+
+For anomaly detection, I used simple rules like flagging expenses that are unusually high or much higher than normal spending in that category. This helps identify unusual transactions quickly.
+
+The data model is simple and structured, with fields like date, amount, category, description, and payment method. This makes it easy to filter data, analyze spending, and create charts.
+
+A trade-off is that rule-based categorization may sometimes misclassify expenses. However, it keeps the system simple, fast, and easy to maintain
